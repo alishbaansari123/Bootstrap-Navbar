@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+
+#anchor , #content-hover {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+img{
+    cursor: pointer;
+}
+
+#anchor:hover {
+    color: black;
+}
+
+#back-change {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content-hover:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+}
+
+@media screen and (max-width:786px) {
+    nav{
+        height: fit-content;
+        border-radius: 0;
+    }
+.icon{
+    margin-left: 5px;
+}
+
+#anchor{
+    padding-top: 25px;
+}
+}
